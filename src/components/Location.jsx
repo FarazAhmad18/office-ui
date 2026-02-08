@@ -5,7 +5,7 @@ export default function Location() {
   const [cRef, cVis] = useReveal(0.1);
 
   return (
-    <section id="location" aria-label="Office location in San Francisco Financial District" className="relative pt-28 lg:pt-40 pb-8 lg:pb-10 gradient-warm overflow-hidden">
+    <section id="location" aria-label="Office location in San Francisco Financial District" className="relative pt-10 lg:pt-14 pb-8 lg:pb-10 gradient-warm overflow-hidden">
       <div className="glow-orb w-[500px] h-[500px] bg-gold/[0.04] top-[-10%] right-[-10%]" />
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10">

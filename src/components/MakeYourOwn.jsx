@@ -7,7 +7,7 @@ export default function MakeYourOwn() {
   const [rRef, rVis] = useReveal();
 
   return (
-    <section aria-label="Customizable flexible workspace options" className="relative pt-28 lg:pt-40 pb-8 lg:pb-10 gradient-warm overflow-hidden">
+    <section aria-label="Customizable flexible workspace options" className="relative pt-10 lg:pt-14 pb-8 lg:pb-10 gradient-warm overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
 

@@ -23,7 +23,7 @@ export default function Community() {
   const [cRef, cVis] = useReveal(0.1);
 
   return (
-    <section id="about" aria-label="About our coworking community" className="relative gradient-mesh-dark text-white py-28 lg:py-40 overflow-hidden">
+    <section id="about" aria-label="About our coworking community" className="relative gradient-mesh-dark text-white pt-10 lg:pt-14 pb-10 lg:pb-14 overflow-hidden">
       {/* Gradient orbs */}
       <div className="glow-orb w-[600px] h-[600px] bg-gold/[0.03] top-[-20%] left-[-10%]" />
 

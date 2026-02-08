@@ -7,7 +7,7 @@ export default function CallToAction() {
   const { openBooking } = useBooking();
 
   return (
-    <section id="book" aria-label="Book a workspace tour" className="relative py-36 lg:py-48 overflow-hidden">
+    <section id="book" aria-label="Book a workspace tour" className="relative pt-16 lg:pt-20 pb-16 lg:pb-20 overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center bg-fixed" style={{ backgroundImage: `url(${bgImg})` }} />
       <div className="absolute inset-0 bg-dark/85" />
 

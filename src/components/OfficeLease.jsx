@@ -18,7 +18,7 @@ export default function OfficeLease() {
   const [lRef, lVis] = useReveal(0.05);
 
   return (
-    <section id="features" aria-label="Office amenities and features included in lease" className="relative py-28 lg:py-40 gradient-mesh-light overflow-hidden section-divider-top">
+    <section id="feature" aria-label="Office amenities and features included in lease" className="relative pt-10 lg:pt-14 pb-28 lg:pb-40 gradient-mesh-light overflow-hidden section-divider-top">
       <div className="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
         <div ref={tRef} className={`reveal-left ${tVis ? 'vis' : ''}`}>
           <span className="text-[12px] tracking-[0.25em] uppercase text-gold font-semibold">Amenities</span>

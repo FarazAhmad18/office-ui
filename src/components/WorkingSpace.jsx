@@ -16,7 +16,7 @@ export default function WorkingSpace() {
   const [gRef, gVis] = useReveal(0.05);
 
   return (
-    <section className="relative pt-6 lg:pt-8 pb-28 lg:pb-40 overflow-hidden gradient-warm-reverse">
+    <section className="relative pt-6 lg:pt-8 pb-10 lg:pb-14 overflow-hidden gradient-warm-reverse">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div ref={tRef} className={`text-center mb-20 reveal ${tVis ? 'vis' : ''}`}>
           <span className="text-[12px] tracking-[0.25em] uppercase text-gold font-semibold">Virtual Tour</span>

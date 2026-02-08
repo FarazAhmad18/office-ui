@@ -13,7 +13,7 @@ export default function Memberships() {
   const { openBooking } = useBooking();
 
   return (
-    <section id="membership" aria-label="Membership pricing plans" className="relative py-28 lg:py-40 overflow-hidden gradient-mesh-dark text-white">
+    <section id="membership" aria-label="Membership pricing plans" className="relative pt-10 lg:pt-14 pb-28 lg:pb-40 overflow-hidden gradient-mesh-dark text-white">
       {/* Single subtle orb */}
       <div className="glow-orb w-[500px] h-[500px] bg-gold/[0.03] top-[-15%] right-[-10%]" />
 
