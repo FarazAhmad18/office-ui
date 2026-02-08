@@ -1,0 +1,20 @@
+{
+  "name": "Office. — Premium Coworking Space",
+  "short_name": "Office.",
+  "description": "Premium coworking spaces, private offices, and meeting rooms in San Francisco's Financial District.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#c9a96e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "en-US"
+}
